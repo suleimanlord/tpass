@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>troop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="nav">
+        <img src="images/makerslogo.svg" alt="logo" />
+        <ul class="info-list">
+          <li>Мои шаги</li>
+          <li>График</li>
+          <li>Что я получу</li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <p class="company">
+          Получи работу программистом<br /><span>в IT компании</span>
+        </p>
+        <p class="info">
+          Makers быстро обучит с нуля, даст практический опыт <br />и будет с
+          тобой до твоей первой зарплаты.
+        </p>
+      </div>
+      <hr />
+      <div class="info-mans">
+        <p id="one" style="float: right">Наши выпускники</p>
+        <button id="openModalBtn">+</button>
+        <p id="two" style="float: left">Все выпускники</p>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Введите имя и профессию</h2>
+          <form id="myForm">
+            <input type="text" id="nameInput" placeholder="Имя" required>
+            <input type="text" id="professionInput" placeholder="Профессия" required>
+            <button type="submit">+</button>
+          </form>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="image"></div>
+          <p>Sulaiman Sagynaliev</p>
+          <p class="prof">Frontend Developer</p>
+        </div>
+        <div class="card">
+          <div class="image"></div>
+          <P>Peter Parker</P>
+          <p class="prof">Backend Developer</p>
+        </div>
+        <div class="card">
+          <div class="image"></div>
+          <P>Jon Sims</P>
+          <p class="prof">Frontend Developer</p>
+        </div>
+        <div class="card">
+          <div class="image"></div>
+          <p>Mia Melisa</p>
+          <p class="prof">Frontend Developer</p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
